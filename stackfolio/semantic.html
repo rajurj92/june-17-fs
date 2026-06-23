@@ -8,14 +8,23 @@
       html {
         scroll-behavior: smooth;
       }
+      h1 {
+        color: red;
+      }
     </style> -->
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <h1>My Developer Portfolio</h1>
       <p>
-        Hi, I am a developer building simple, thoughtful web experiences with
-        practical projects.
+        Hi,3I am a developer building simple, thoughtful web experiences with
+        practical projects. Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Porro, adipisci, quos commodi vitae optio pariatur ab quia
+        doloremque accusamus dignissimos assumenda illo inventore laudantium
+        atque repudiandae harum vel, repellat consequatur deserunt aperiam vero.
+        Excepturi totam accusamus amet omnis ad reprehenderit numquam sunt. Enim
+        magnam nesciunt maiores laudantium, nam voluptates quae?
       </p>
       <nav>
         <a href="#about">About</a>
@@ -25,7 +34,7 @@
       </nav>
     </header>
     <main>
-      <section id="about">
+      <section id="about" class="section-card">
         <h2>About Me</h2>
         <p>
           I am a passionate web developer with experience in creating responsive
@@ -33,7 +42,7 @@
           building creative solutions.
         </p>
       </section>
-      <section id="skills">
+      <section id="skills" class="section-card">
         <h2>Skills</h2>
         <ul>
           <li>HTML structure and content</li>
@@ -41,7 +50,7 @@
           <li>Project planning and iteration</li>
         </ul>
       </section>
-      <section id="projects">
+      <section id="projects" class="section-card">
         <h2>Projects</h2>
         <!-- <ul>
           <li>Portfolio site prototype for StackFolio</li>
@@ -50,11 +59,13 @@
         </ul> -->
         <article>
           <h3>Stackfolio</h3>
-          <p>A simple portfolio site prototype for StackFolio.</p>
+          <p class="intro-text">
+            A simple portfolio site prototype for StackFolio.
+          </p>
         </article>
         <a href="#">Contact me about this project</a>
       </section>
-      <section id="contact">
+      <section id="contact" class="section-card" id="contact">
         <h2>Contact</h2>
         <p>the contact form will be added in this section</p>
         <form>
