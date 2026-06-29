@@ -12,7 +12,7 @@
         color: red;
       }
     </style> -->
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./class4.css" />
   </head>
   <body>
     <header>
@@ -45,9 +45,9 @@
       <section id="skills" class="section-card">
         <h2>Skills</h2>
         <ul>
-          <li>HTML structure and content</li>
-          <li>Responsive thinking for web layouts</li>
-          <li>Project planning and iteration</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
         </ul>
       </section>
       <section id="projects" class="section-card">
@@ -57,14 +57,15 @@
           <li>Interactive concept mockups for client dashboards</li>
           <li>Simple landing pages and documentation sites</li>
         </ul> -->
-        <article>
+        <article class="project-card featured-project">
+          <span class="project-status">Featured</span>
           <h3>Stackfolio</h3>
           <p class="intro-text">
             A simple portfolio site prototype for StackFolio.
           </p>
         </article>
         <a href="#">Contact me about this project</a>
-        <article>
+        <article class="project-card">
           <h3>Stackfolio</h3>
           <p class="intro-text">
             A simple portfolio site prototype for StackFolio.
@@ -107,7 +108,7 @@
               value="email"
               checked
             />
-            <label for="contact-email">Email</label>
+            <label for="contact-email" id="email-label">Email</label>
             <input
               type="radio"
               id="contact-phone"
@@ -117,11 +118,14 @@
             <label for="contact-phone">Phone</label>
           </fieldset>
           <input type="checkbox" id="consent" name="consent" required />
-          <label for="consent">I agree to be contacted about my message</label>
+          <label for="consent" id="consent-label"
+            >I agree to be contacted about my message</label
+          >
           <button type="submit">Send Mesage</button>
         </form>
       </section>
     </main>
     <footer></footer>
+    <a href="#contact" class="floating-contact">Contact</a>
   </body>
 </html>
